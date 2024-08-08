@@ -34,11 +34,4 @@ public class RepositoryTest {
         assertThat(repository.count()).isEqualTo(1);
     }
 
-//
-//    @Test
-//    public void testThatExpensesCanBeDeleted(){
-//        ExpenseRequest request = createRequest();
-//        services.addExpensesToDashboard(request);
-//
-//    }
 }

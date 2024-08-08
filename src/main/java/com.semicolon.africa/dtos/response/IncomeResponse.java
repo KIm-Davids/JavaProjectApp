@@ -1,4 +1,4 @@
-package com.semicolon.africa.values;
+package com.semicolon.africa.dtos.response;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -9,8 +9,7 @@ import lombok.Setter;
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
-public class Tax {
+public class IncomeResponse {
 
-    private long amount;
-    private String description;
+    private String message;
 }

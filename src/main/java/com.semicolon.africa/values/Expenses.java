@@ -14,12 +14,11 @@ import java.time.LocalDateTime;
 @AllArgsConstructor
 @NoArgsConstructor
 public class Expenses {
-    private String month;
     private String description;
     private LocalDateTime localDateTime;
 
     @Id
-    private String id;
+    private String month;
     private long rent;
     private long foodExpense;
     private long clothingExpenses;

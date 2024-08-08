@@ -12,21 +12,18 @@ import java.time.LocalDateTime;
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
-public class ExpenseRequest {
+public class IncomeRequest {
 
-    private String description;
     private LocalDateTime localDateTime;
 
     @Id
     private String month;
-    private long rent;
-    private long foodExpense;
-    private long clothingExpenses;
-    private long transportationFees;
-    private long tax;
-    private long miscellaneous;
-    private long personalExpenses;
-    private long customExpensesAmount;
-    private String customExpense;
-
+    private long salaryOrWages;
+    private long sideHustles;
+    private long investmentIncome;
+    private long rentalIncome;
+    private String description;
+    private String customIncome;
+    private long customIncomeAmount;
+    private long incomeFromAssets;
 }
